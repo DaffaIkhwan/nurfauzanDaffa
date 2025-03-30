@@ -6,6 +6,11 @@
     <title>Daffa Ikhwan Nurfauzan</title>
     <link rel="icon" href="./assets/images/avatar.png">
     <link rel="stylesheet" href="./css/index.css">
+     <script>
+        var ua = (navigator.userAgent || navigator.vendor || window.opera).toLowerCase();
+        document.documentElement.className += /(iPad|iPhone|Android)/i.test(ua) ? ' is-mobile' : ' is-desktop';
+        document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+    </script>
     <script defer src="./js/TweenLite.js"></script>
     <script defer src="./js/three.r112.js"></script>
     <script defer src="./js/index.js"></script>
